@@ -1,2 +1,2 @@
-# LCA_assignment_1
+# LAB_assignments
 this is my course work for python. LCA1
