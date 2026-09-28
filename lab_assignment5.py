@@ -1,5 +1,6 @@
 import re
-
-txt = input("Enter a String :")
-res = re.findall(r'[a-z A-Z 0-9]',txt)
-print(res)
+txt = "apple123"
+if re.fullmatch("[a-zA-Z0-9]+",txt):
+    print("this string is valid")
+else:
+    print("this string is invalid")
